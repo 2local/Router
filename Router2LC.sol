@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-08-15
+*/
+
 pragma solidity >=0.6.0;
 
 // helper methods for interacting with ERC20 tokens and sending ETH that do not consistently return true/false
@@ -277,7 +281,7 @@ library Library2LC {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5' // init code hash
+                hex'4286353b595716d643f121c6f2525bb6de4568a4740de796ab37fe956db05fdc' // init code hash
             ))));
     }
 
